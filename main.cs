@@ -15,7 +15,7 @@ namespace BanderasBruteForce
             string dictionary_path = Console.ReadLine();
             Console.WriteLine("Cracking email: ");
             string cracking_email = Console.ReadLine();
-            Console.WriteLine("Cracking email SMTP(example - smtp.google.com): ");
+            Console.WriteLine("Cracking email SMTP(example - smtp.gmail.com): ");
             string smtp = Console.ReadLine();
             Console.WriteLine("Cracking email SMTP PORT(example - 993)");
             int port = Convert.ToInt16(Console.ReadLine());
